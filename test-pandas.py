@@ -141,8 +141,47 @@ bios_new['first_name'] = bios_new['name'].str.split(' ').str[0]
 #lambda functions
 bios_new['height_category'] = bios_new['height_cm'].apply(lambda x: 'Short' if x < 165 else('Average' if x < 185 else 'Tall'))
 
-
-
 # =====================================
 # Merging and Concatenating Data
 # =====================================
+
+noc = pd.read_csv("./noc_regions.csv")
+bios_new = pd.merge(bios, noc, on="NOC")
+
+#join on different columns
+bios_new = pd.merge(bios, noc, left_on="born_country", right_on="NOC", how="inner")
+# how can also be left, right, inner, outter etc.
+
+usa = bios[bios['born_country'] == "USA"].copy()
+gbr = bios[bios['born_country'] == "GBR"].copy()
+
+new = pd.concat([usa, gbr]) # adds entries to the end of the data frame
+
+# =====================================
+# Handling Null Values
+# =====================================
+coffee.fillna(100)
+coffee.fillna(coffee['Units Sold'].mean()) # more intuitive
+coffee.fillna(coffee['Units Sold'].interpolate()) # tries to use neighbours to decifer a pattern
+
+coffee.dropna() #need inplace to effect it
+coffee.dropna(subset=['Units Sold']) # drop only the rows where units sold is nan
+coffee[coffee['Units Sold'].notna()]
+
+# =====================================
+# Aggregating Data
+# =====================================
+bios['born_city'].value_counts()
+print(coffee.groupby(['Coffee Type']))
+
+# =====================================
+# Pivot Table
+# =====================================
+pivot = coffee.pivot(columns='Coffee Type', index='Day', values='Revenue')
+# restructure data
+print(pivot)
+
+
+# SHIFTING DATA (copying data but moving it up or down)
+coffee['yesterday_revenue'] = coffee['Revenue'].shift(2) # can also shift -2
+#useful to calculate percentage icnreases
