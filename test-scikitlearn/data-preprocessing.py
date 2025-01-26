@@ -19,7 +19,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=11, test_
 # exact same randomization for the future
 
 
-
 # ================================
 # Feature Scaling
 # ================================
@@ -128,5 +127,29 @@ impute.fit_transform(df)
 #    3. most frequent
 #    4. constant (extra parameter: fill_value=13) useful for dataframers that contain strings
 #   * add_indicator = True to add an indicator if you imputed
+
+
+# Overfitting:
+# --------------
+# Overfitting occurs when a model learns the details and noise in the training data to such an extent
+# that it negatively impacts the performance of the model on new, unseen data.
+# This typically happens when the model is too complex, with too many parameters or features,
+# and it "memorizes" the training data rather than generalizing from it.
+
+# When to avoid overfitting:
+# - If your model performs well on training data but poorly on testing data.
+# - When you notice that your model is too complex (e.g., too many features, too deep in a decision tree).
+
+# Underfitting:
+# --------------
+# Underfitting occurs when a model is too simple to capture the underlying patterns in the data,
+# leading to poor performance on both the training and testing data.
+# This typically happens when the model is too rigid or not powerful enough (e.g., a linear model for non-linear data).
+
+# When to avoid underfitting:
+# - If your model performs poorly on both the training and testing data.
+# - When your model is too simple, such as using linear models for data that has a non-linear relationship.
+
+# Balancing overfitting and underfitting is key to creating a model that generalizes well.
 
 

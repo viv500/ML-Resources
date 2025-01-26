@@ -10,9 +10,23 @@ from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
 
 
-# A K-Nearest Neighbors (KNN) model is a simple, non-parametric algorithm used for classification and regression. 
-# It works by finding the 'k' closest data points (neighbors) to a new data point and predicting the output based on the majority class (for classification) or average (for regression) of those neighbors. 
-# The closer the neighbors are, the more influence they have on the prediction.
+# K-Nearest Neighbors (KNN):
+# ---------------------------
+# K-Nearest Neighbors (KNN) is SUPERVISED and used for classification and regression tasks.
+# It works by finding the 'k' closest data points (neighbors) to a new data point and making predictions 
+# based on the majority class (classification) or average (regression) of those neighbors.
+
+# When to use it:
+# 1. When the dataset has a simple structure and when the decision boundary is highly non-linear.
+# 2. When you need an intuitive, easy-to-understand model that doesn’t require much training.
+# 3. For small to medium-sized datasets, as the algorithm performs poorly with large datasets due to high computation costs.
+# 4. When working with data where the relationships between features and output are local, rather than global.
+
+# Limitations:
+# - KNN can be slow with large datasets, especially when making predictions as it requires searching through the entire dataset.
+# - It is sensitive to irrelevant or redundant features, and feature scaling (like normalization) is important.
+# - Choosing the right value for 'k' is crucial: a small 'k' may overfit, while a large 'k' may smooth out important distinctions.
+
 
 # A type of SUPERVISED machine learning
 # Supervised Learning: The model is trained on labeled data (input-output pairs), 
