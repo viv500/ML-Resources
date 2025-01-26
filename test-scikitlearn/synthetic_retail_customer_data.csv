@@ -1,0 +1,101 @@
+CustomerID,Name,Age,Gender,State,MonthlySpending,LoyaltyPoints,ProductCategory,PurchasedOn
+1,Levi Pratt DDS,33.0,M,California,750.0,496,Furniture,2024-05-27
+2,Heather Diaz,67.0,F,California,250.0,93,Clothing,2024-10-02
+3,April Martin,54.0,M,New York,,237,Toys,2024-04-09
+4,Joseph Sanchez,46.0,M,Texas,650.0,445,Electronics,2024-07-27
+5,Joshua Shea,21.0,F,Nevada,150.0,499,Groceries,2024-07-21
+6,Diane Gonzalez,21.0,M,Florida,950.0,452,Electronics,2024-03-21
+7,Paula Gentry,,F,Texas,1000.0,203,Groceries,2024-04-28
+8,Kelly Coleman,62.0,F,Florida,950.0,399,Furniture,2024-06-14
+9,Erica Coleman,46.0,F,New York,350.0,217,Clothing,2024-07-01
+10,Jennifer Brown,53.0,M,New York,,473,Electronics,2024-09-24
+11,Luke Chen,,M,California,950.0,431,nan,2024-04-02
+12,Ryan Gregory,68.0,M,Nevada,400.0,340,Toys,2024-02-23
+13,Manuel Lucas,60.0,M,Florida,1000.0,38,Furniture,2024-12-03
+14,Kimberly Taylor,24.0,M,Texas,1000.0,99,Electronics,2024-10-18
+15,Mario Meadows,22.0,M,New York,850.0,288,Toys,2024-11-18
+16,Taylor Graham,22.0,M,California,300.0,253,Electronics,2024-08-20
+17,Mitchell Morgan,29.0,F,California,400.0,221,Groceries,2024-07-22
+18,David Johnson,42.0,M,Florida,850.0,356,Electronics,2025-01-22
+19,Michael Lynch,37.0,F,New York,300.0,22,nan,2024-03-22
+20,Mitchell Gardner,29.0,M,Nevada,150.0,249,Electronics,2024-06-25
+21,Kenneth Herrera,47.0,M,New York,550.0,9,Electronics,2024-07-01
+22,Johnathan Owens,20.0,M,Florida,950.0,245,nan,2025-01-17
+23,Stephen Small,29.0,F,Florida,700.0,324,Furniture,2024-07-25
+24,Nicole Fuller,33.0,F,New York,550.0,99,Electronics,2024-02-06
+25,Rodney Smith,38.0,F,Florida,,289,nan,2024-11-11
+26,Jeremy Ewing,57.0,F,New York,600.0,179,Toys,2024-04-13
+27,Ashley Woods,23.0,M,Texas,1000.0,222,Groceries,2024-02-22
+28,Karen Smith DVM,41.0,F,New York,100.0,393,Groceries,2024-07-30
+29,Jaime Vazquez,46.0,M,New York,500.0,249,Electronics,2024-04-28
+30,Sean Alvarez,,M,Florida,900.0,146,Furniture,2024-05-16
+31,Daniel White,47.0,F,Florida,750.0,441,Furniture,2024-01-27
+32,Eric Nelson,22.0,F,California,700.0,95,Toys,2025-01-15
+33,Christian Pittman,,F,California,700.0,256,Electronics,2024-06-24
+34,Johnathan White,67.0,F,Texas,350.0,324,Groceries,2024-09-10
+35,Justin Newton,68.0,F,California,300.0,492,Furniture,2024-07-08
+36,Jason Benson,58.0,F,New York,800.0,3,Electronics,2024-07-20
+37,Michael Holland,29.0,F,Florida,800.0,15,Furniture,2024-11-08
+38,Barbara Price,,F,California,900.0,279,nan,2024-09-22
+39,Richard Graham,51.0,M,California,950.0,335,Furniture,2024-10-25
+40,Jonathan Hoover,37.0,F,Texas,500.0,246,Groceries,2024-05-10
+41,Andrew Mercer,19.0,F,Texas,500.0,257,Clothing,2025-01-08
+42,Charles Hamilton,40.0,M,New York,800.0,496,Toys,2024-12-30
+43,Ryan Norton,,F,Florida,650.0,475,Toys,2024-08-15
+44,Rebecca Wall,64.0,M,Texas,700.0,383,Groceries,2024-06-05
+45,Jill Davis,27.0,M,California,800.0,159,Furniture,2024-03-25
+46,James Adkins,50.0,F,Florida,900.0,474,Electronics,2024-05-10
+47,Tyler Lozano,30.0,M,Florida,350.0,339,Furniture,2024-09-08
+48,Victoria Liu,42.0,M,California,350.0,151,Groceries,2024-03-17
+49,John Greene,43.0,M,Texas,,395,Toys,2024-12-23
+50,Scott Butler,22.0,M,California,600.0,177,Furniture,2024-06-12
+51,Julie Werner,68.0,F,Florida,,162,Toys,2024-08-30
+52,Mark Burke,57.0,M,Nevada,450.0,379,Electronics,2024-08-02
+53,George Lam,66.0,F,Nevada,550.0,32,Toys,2024-11-07
+54,Ashlee Smith,63.0,M,New York,250.0,416,Toys,2024-11-15
+55,Cathy Robinson,46.0,M,California,600.0,444,Clothing,2024-06-28
+56,Rhonda Pierce,65.0,M,California,,178,Clothing,2024-05-22
+57,Carla Sullivan,,M,New York,,426,nan,2024-11-25
+58,Isaiah Gross,23.0,F,New York,850.0,100,Clothing,2024-02-06
+59,Michael Collins,,F,New York,350.0,267,Toys,2024-07-12
+60,Virginia Ramos,31.0,M,Florida,100.0,322,Groceries,2024-08-20
+61,Ms. Danielle Lynch,34.0,M,California,500.0,64,Toys,2024-02-12
+62,Oscar Adams,27.0,F,Florida,800.0,416,Groceries,2024-09-17
+63,James Myers,60.0,M,New York,200.0,167,Groceries,2024-07-02
+64,Michelle Wilson,32.0,M,California,650.0,329,Clothing,2024-05-03
+65,Vincent Goodman,28.0,M,Florida,,42,Furniture,2024-03-23
+66,Guy Johnson,43.0,F,Florida,,43,Electronics,2024-10-25
+67,Kevin Powell,20.0,F,New York,550.0,284,Clothing,2024-04-22
+68,Alexis Hanson,58.0,F,California,550.0,396,Clothing,2024-05-10
+69,Raymond Martinez,,M,New York,650.0,11,Furniture,2024-04-27
+70,Michaela Mendez,69.0,M,California,750.0,94,Electronics,2024-03-14
+71,Amber Schwartz,56.0,F,Nevada,1000.0,301,Toys,2024-03-04
+72,Samantha Graham,23.0,F,Texas,500.0,385,nan,2024-07-01
+73,Evan Lawson,,F,Texas,300.0,252,nan,2024-11-02
+74,Jennifer Cruz,59.0,F,Texas,800.0,498,Toys,2024-04-09
+75,Samuel Ramirez,53.0,M,New York,250.0,241,Clothing,2024-03-30
+76,John Lester,54.0,F,Nevada,450.0,34,Electronics,2025-01-24
+77,Paul Watson,56.0,M,California,,214,Clothing,2024-07-09
+78,Andrew Ellis,,F,Florida,,336,Groceries,2024-06-20
+79,Jennifer Holmes,32.0,M,California,1000.0,89,Clothing,2024-12-22
+80,Jerry Ortega,18.0,F,Florida,850.0,263,Clothing,2024-09-12
+81,Marcus Gomez,62.0,F,California,700.0,92,Toys,2024-10-23
+82,Lauren Yang,48.0,F,Nevada,400.0,409,Toys,2024-09-09
+83,Tommy Tucker,31.0,F,Florida,150.0,457,Toys,2025-01-03
+84,Christina Farrell,,M,New York,150.0,89,nan,2024-07-04
+85,Ashley Weaver,30.0,F,California,250.0,417,Groceries,2024-11-28
+86,Pamela Reid,31.0,M,California,550.0,114,Toys,2024-07-23
+87,Geoffrey Bender,54.0,M,Florida,700.0,104,Electronics,2024-08-24
+88,Robert Juarez,49.0,M,New York,650.0,390,nan,2024-08-11
+89,Debbie Owens,63.0,M,New York,250.0,195,Furniture,2025-01-04
+90,Steven Robinson,39.0,F,Nevada,1000.0,313,Electronics,2024-07-09
+91,Jeremy Mcdonald,19.0,M,New York,750.0,500,Electronics,2024-09-08
+92,Daniel Edwards,53.0,M,New York,550.0,113,Toys,2024-12-14
+93,Aaron Palmer,56.0,M,New York,600.0,492,Furniture,2024-07-21
+94,Ryan Ellis,44.0,F,Texas,400.0,74,Furniture,2024-09-25
+95,Michelle Bauer,56.0,F,Nevada,250.0,412,nan,2024-12-09
+96,Kimberly Johnson,40.0,F,California,350.0,375,Furniture,2024-10-06
+97,Brandon Waters,42.0,F,Florida,750.0,419,Groceries,2024-03-04
+98,Sandy Roth,36.0,M,California,,216,Toys,2024-12-20
+99,Jonathan Lozano,,M,Nevada,100.0,276,Furniture,2025-01-17
+100,Lindsey Holt,18.0,F,Florida,,248,nan,2024-05-12

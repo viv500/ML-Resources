@@ -58,6 +58,7 @@ print(X1.head())
 minMaxScaler = MinMaxScaler(feature_range=(0, 1)) # to normalize
 
 X2 = minMaxScaler.fit_transform(X2)
+# Cuz scalers convert DataFrames into np arrays
 X2 = pd.DataFrame(X2, columns=["YRS", "G", "AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "SO", "SB", "CS"])
 
 print(X2.head())
@@ -96,7 +97,7 @@ print(df['city'].unique()) # most popoular cities in order
 
 # One Hot Encoder -> expand the table to have a column for each city name -> 1 if it is the city 0 otherwise
 
-ohe = OneHotEncoder(handle_unknown='ignore', sparse_output=False).set_output(transform='pandas') # use pandas for our output
+ohe = OneHotEncoder(handle_unknown='ignore', sparse_output=False).set_output(transform='pandas') # use pandas for our output, default is np array
 ohetransform = ohe.fit_transform(df[['city']]) #df with just cities and bools
 
 print(ohetransform.head())
@@ -154,3 +155,26 @@ impute.fit_transform(df)
 # - When your model is too simple, such as using linear models for data that has a non-linear relationship.
 
 # Balancing overfitting and underfitting is key to creating a model that generalizes well.
+
+
+
+# ==========================
+# get dummies syntax: get dummies returns a Data Frame
+df = pd.DataFrame({
+    'city': ['Tampa', 'Orlando', 'Miami', 'Tampa'],
+    'sales': [100000, 200000, 150000, 120000]
+})
+
+
+# get_summies() AUTO MERGES !!
+
+# df_dummies = pd.get_dummies(df, columns=['city'])
+# print(df_dummies)
+
+
+# >>>
+'''    sales  city_Orlando  city_Miami  city_Tampa
+0  100000             0           0           1
+1  200000             1           0           0
+2  150000             0           1           0
+3  120000             0           0           1'''

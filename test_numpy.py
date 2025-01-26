@@ -239,3 +239,9 @@ print(a)
 np.savetxt("my-array.csv", a, delimiter=",")
 
 
+
+
+# !!!
+# [] is an np array
+# [[]] is a pandas dataframe
+# [[]].values is an np array
