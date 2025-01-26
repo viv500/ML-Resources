@@ -73,6 +73,9 @@ print(X2.head())
 
 from sklearn.preprocessing import OneHotEncoder
 
+# EASIEST WAY:
+# df3 = df.get_dummies(df[['YRS']])
+
 # good for categorial data
 # convert into nummbers !
 
@@ -151,5 +154,3 @@ impute.fit_transform(df)
 # - When your model is too simple, such as using linear models for data that has a non-linear relationship.
 
 # Balancing overfitting and underfitting is key to creating a model that generalizes well.
-
-
